@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a:hover {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.page1 {
+    background: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.page1 button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #1e90ff;
+    font-weight: bold;
+    cursor: pointer;
+}
